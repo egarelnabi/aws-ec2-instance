@@ -17,3 +17,8 @@ variable "name" {
   description = "name to pass to Name tag"
   default = "UnTagged"
 }
+
+variable "instance_count" {
+  description = "number of instances"
+  default = 1
+}
