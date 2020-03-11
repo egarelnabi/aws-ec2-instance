@@ -8,7 +8,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ubuntu" {
-  instance_count         = var.vm_count
+  count         = var.instance_count
   ami           = var.ami_id
   instance_type = var.instance_type
 
