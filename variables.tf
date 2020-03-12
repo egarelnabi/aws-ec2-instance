@@ -10,7 +10,7 @@ variable "ami_id" {
 
 variable "instance_type" {
   description = "type of EC2 instance to provision."
-  default = "m4.xlarge"
+  default = "m4.2xlarge"
 }
 
 variable "name" {
