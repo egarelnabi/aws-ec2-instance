@@ -10,7 +10,7 @@ variable "ami_id" {
 
 variable "instance_type" {
   description = "type of EC2 instance to provision."
-  default = "t2.micro"
+  default = "m4.xlarge"
 }
 
 variable "name" {
@@ -20,5 +20,5 @@ variable "name" {
 
 variable "instance_count" {
   description = "number of instances"
-  default = "100"
+  default = "15"
 }
