@@ -15,10 +15,15 @@ variable "instance_type" {
 
 variable "name" {
   description = "name to pass to Name tag"
-  default = "UnTagged"
+  default = "My_App"
+}
+
+variable "environment" {
+  description = "environment deployed to"
+  default = "Dev_1"
 }
 
 variable "instance_count" {
   description = "number of instances"
-  default = "15"
+  default = "1"
 }
