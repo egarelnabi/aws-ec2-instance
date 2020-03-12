@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "name" {
   description = "name to pass to Name tag"
-  default = "my_app_eyad"
+  default = "my_app_eyad_2"
 }
 
 variable "environment" {
@@ -25,5 +25,5 @@ variable "environment" {
 
 variable "instance_count" {
   description = "number of instances"
-  default = "2"
+  default = "3"
 }
