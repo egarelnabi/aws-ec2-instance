@@ -25,5 +25,5 @@ variable "environment" {
 
 variable "instance_count" {
   description = "number of instances"
-  default = "15"
+  default = "1"
 }
