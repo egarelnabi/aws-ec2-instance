@@ -20,7 +20,7 @@ variable "name" {
 
 variable "environment" {
   description = "environment deployed to"
-  default = "QA"
+  default = "QA2"
 }
 
 variable "instance_count" {
